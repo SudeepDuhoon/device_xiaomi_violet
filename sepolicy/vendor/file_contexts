@@ -26,3 +26,6 @@
 # HW Info
 /sys/devices/platform/HardwareInfo(/.*)? u:object_r:sysfs_info:s0
 /sys/devices/platform/HardwareInfo/gsensor  u:object_r:sysfs_info:s0
+
+# FPS Info
+/sys/class/drm/sde-crtc-0/measured_fps               u:object_r:sysfs_fps:s0
