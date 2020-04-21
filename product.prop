@@ -46,3 +46,9 @@ ro.netflix.bsp_rev=Q6150-17263-1
 
 # Recovery
 persist.sys.recovery_update=true
+
+# Xtended version
+ro.xtended.display.version=XQ-OFFICIAL-Release-v8.0
+
+# Xtended Maintainer
+ro.xtended.maintainer=V!SHW@S7
