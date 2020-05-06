@@ -17,10 +17,11 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/ion/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_violet
+PRODUCT_NAME := ion_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -33,4 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Xtended Official
-XTENDED_BUILD_TYPE := OFFICIAL
+#XTENDED_BUILD_TYPE := OFFICIAL

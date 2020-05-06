@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_violet.mk
+    $(LOCAL_DIR)/ion_violet.mk
+
+COMMON_LUNCH_CHOICES := \
+    ion_violet-eng \
+    ion_violet-userdebug
